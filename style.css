@@ -51,6 +51,7 @@ header ul li{
     width: 1200px;
     max-width: 90%;
     margin: auto;
+    overflow-x: scroll;
 }
 .banner{
     margin-top: 150px;
