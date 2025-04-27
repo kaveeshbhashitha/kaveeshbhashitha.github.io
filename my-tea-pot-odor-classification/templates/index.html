@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../assets/img/tea-bag.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../assets/img/tea-bag.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="./assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" /> 
+    <link href="../assets/css/main.css" rel="stylesheet" />
+    <title>My TeaPot</title>
+  </head>
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div class="container-fluid container-xl position-relative d-flex align-items-center" >
+        <a href="index.html" class="logo d-flex align-items-center me-auto"> <img src="../assets/img/tea-bag.png" alt="" /> <h1 class="sitename">TeaPot</h1> </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li> <a href="./index.html" class="active">Home<br /></a> </li>
+            <li><a href="./map.html">About</a></li>
+            <!-- <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li class="dropdown">
+              <a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Dropdown 1</a></li>
+                <li class="dropdown">
+                  <a href="#" ><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                  <ul>
+                    <li><a href="#">Deep Dropdown 1</a></li>
+                    <li><a href="#">Deep Dropdown 2</a></li>
+                    <li><a href="#">Deep Dropdown 3</a></li>
+                    <li><a href="#">Deep Dropdown 4</a></li>
+                    <li><a href="#">Deep Dropdown 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Dropdown 2</a></li>
+                <li><a href="#">Dropdown 3</a></li>
+                <li><a href="#">Dropdown 4</a></li>
+              </ul>
+            </li>
+            <li class="listing-dropdown">
+              <a href="#"><span>Listing Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li>
+                  <a href="#">Column 1 link 1</a>
+                  <a href="#">Column 1 link 2</a>
+                  <a href="#">Column 1 link 3</a>
+                </li>
+                <li>
+                  <a href="#">Column 2 link 1</a>
+                  <a href="#">Column 2 link 2</a>
+                  <a href="#">Column 3 link 3</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li> -->
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a class="btn-getstarted flex-md-shrink-0" href="./model.html">Get Started</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+              <h1 data-aos="fade-up"> We guess your tea by place, kind or quality for perfect categorziation </h1>
+              <p data-aos="fade-up" data-aos-delay="100"> We are expertist to make better choices on your values of tea by odor </p>
+              <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200" >
+                <a href="./map.html" class="btn-get-started">Get Started <i class="bi bi-arrow-right"></i></a>
+                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8"class="glightbox btn-watch-video d-flex align-items-center justify-content-center ms-0 ms-md-4 mt-4 mt-md-0"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+              </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+              <img src="../assets/img/matcha-tea.gif" class="img-fluid animated" alt=""/>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Hero Section -->
+
+      <!-- About Section -->
+      <section id="about" class="about section">
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+            <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200" >
+              <img src="../assets/img/blog/World_Map_Tea_Production.svg.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200" >
+            <div class="content">
+              <h3>Tea growing around the world</h3>
+              <h2> Discover how diverse climates and cultures shape global tea production. </h2>
+              <p> From the misty mountains of Sri Lanka to the rolling hills of Darjeeling and the vast plantations of China and Kenya, tea is cultivated in some of the most picturesque regions across the globe. Each region imparts its own unique flavor, aroma, and tradition to the tea it produces, making every cup a journey through culture and geography.</p>
+              <div class="text-center text-lg-start">
+                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center" >
+                  <span>Read More</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+            
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /About Section -->
+
+      <!-- Stats Section -->
+      <section id="stats" class="stats section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i class="bi bi-globe-asia-australia color-blue flex-shrink-0"></i>
+                <div>
+                  <span data-purecounter-start="0" data-purecounter-end="3400" data-purecounter-duration="1" class="purecounter" ></span>
+                  <p>Million Kg Produced in Asia</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i class="bi bi-globe-europe-africa color-orange flex-shrink-0"></i>
+                <div>
+                  <span data-purecounter-start="0" data-purecounter-end="720" data-purecounter-duration="1" class="purecounter" ></span>
+                  <p>Million Kg Produced in Africa</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i class="bi bi-globe-americas color-green flex-shrink-0"></i>
+                <div>
+                  <span data-purecounter-start="0" data-purecounter-end="90" data-purecounter-duration="1" class="purecounter" ></span>
+                  <p>Million Kg Produced in South America</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i class="bi bi-globe-europe-africa color-pink flex-shrink-0"></i>
+                <div>
+                  <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter" ></span>
+                  <p>Million Kg Produced in Europe</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+
+          </div>
+        </div>
+      </section>
+      <!-- /Stats Section -->
+
+
+      <!-- Features Section -->
+      <section id="features" class="features section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Features</h2>
+          <p>Outstanding Qualities of Tea</p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-xl-6 d-flex">
+              <div class="row align-self-center gy-4">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                  <div class="feature-box d-flex align-items-center">
+                    <i class="bi bi-check"></i>
+                    <h3>Rich in Antioxidants</h3>
+                  </div>
+                </div>
+                <!-- End Feature Item -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                  <div class="feature-box d-flex align-items-center">
+                    <i class="bi bi-check"></i>
+                    <h3>Soothing Aroma</h3>
+                  </div>
+                </div>
+                <!-- End Feature Item -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                  <div class="feature-box d-flex align-items-center">
+                    <i class="bi bi-check"></i>
+                    <h3>Natural Detoxifier</h3>
+                  </div>
+                </div>
+                <!-- End Feature Item -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                  <div class="feature-box d-flex align-items-center">
+                    <i class="bi bi-check"></i>
+                    <h3>Enhances Focus</h3>
+                  </div>
+                </div>
+                <!-- End Feature Item -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+                  <div class="feature-box d-flex align-items-center">
+                    <i class="bi bi-check"></i>
+                    <h3>Supports Digestion</h3>
+                  </div>
+                </div>
+                <!-- End Feature Item -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="700">
+                  <div class="feature-box d-flex align-items-center">
+                    <i class="bi bi-check"></i>
+                    <h3>Calming & Relaxing</h3>
+                  </div>
+                </div>
+                <!-- End Feature Item -->
+              </div>
+            </div>
+
+            <div class="col-xl-6" data-aos="zoom-out" data-aos-delay="100">
+              <img src="../assets/img/blog/tea_tree.png" class="img-fluid" alt="Tea Plant" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Features Section -->
+
+
+      <!-- Services Section -->
+      <section id="services" class="services section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Our Services</h2>
+          <p>Explore the Authentic World of Ceylon Tea</p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-item item-cyan position-relative">
+                <i class="bi bi-tree icon"></i>
+                <h3>Tea Plantation Tours</h3>
+                <p>
+                  Experience the scenic beauty of Ceylon tea estates. Walk through lush green hills and witness how premium tea is cultivated and harvested.
+                </p>
+                <a href="#" class="read-more stretched-link" ><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item item-orange position-relative">
+                <i class="bi bi-cup-hot icon"></i>
+                <h3>Tea Tasting Sessions</h3>
+                <p>Discover the distinctive aromas and flavors of Ceylon tea with guided tasting sessions by professional tea sommeliers.</p>
+                <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item item-teal position-relative">
+                <i class="bi bi-box-seam icon"></i>
+                <h3>Global Tea Exports</h3>
+                <p>We export a wide range of premium Ceylon tea varieties across the globe, ensuring freshness and authenticity in every pack.</p>
+                <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item item-red position-relative">
+                <i class="bi bi-heart-pulse icon"></i>
+                <h3>Wellness Tea Blends</h3>
+                <p>Crafted herbal and specialty Ceylon tea blends designed to boost immunity, aid digestion, and promote overall wellness naturally.</p>
+                <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+              <div class="service-item item-indigo position-relative">
+                <i class="bi bi-journal-bookmark icon"></i>
+                <h3>Tea Education & Workshops</h3>
+                <p>Learn about the history, cultivation, processing, and health benefits of Ceylon tea through our expert-led sessions and workshops.</p>
+                <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+              <div class="service-item item-pink position-relative">
+                <i class="bi bi-gift icon"></i>
+                <h3>Custom Tea Gift Packs</h3>
+                <p>Personalized tea gift sets with curated selections of Ceylon tea – perfect for souvenirs, corporate gifts, and special occasions.</p>
+                <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Services Section -->
+
+      <!-- Features Section -->
+      <section id="features" class="features section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Tea Growing in Sri Lanka</h2>
+          <p>Discover the Regions and Richness of Ceylon Tea</p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-xl-6 d-flex">
+              <div class="row align-self-center gy-4">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                  <div class="feature-box d-flex align-items-center">
+                    <i class="bi bi-check"></i>
+                    <h3>Grown in 12 Unique Regions</h3>
+                  </div>
+                </div>
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                  <div class="feature-box d-flex align-items-center">
+                    <i class="bi bi-check"></i>
+                    <h3>High Elevation Flavor</h3>
+                  </div>
+                </div>
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                  <div class="feature-box d-flex align-items-center">
+                    <i class="bi bi-check"></i>
+                    <h3>Handpicked for Quality</h3>
+                  </div>
+                </div>
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                  <div class="feature-box d-flex align-items-center">
+                    <i class="bi bi-check"></i>
+                    <h3>Ideal Climate & Soil</h3>
+                  </div>
+                </div>
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+                  <div class="feature-box d-flex align-items-center">
+                    <i class="bi bi-check"></i>
+                    <h3>Exported Worldwide</h3>
+                  </div>
+                </div>
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="700">
+                  <div class="feature-box d-flex align-items-center">
+                    <i class="bi bi-check"></i>
+                    <h3>Symbol of Sri Lankan Heritage</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-6" data-aos="zoom-out" data-aos-delay="100">
+              <img src="../assets/img/blog/042-c-1024x756.png.webp" class="img-fluid" alt="Ceylon Tea Regions" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Features Section -->
+
+
+      <!-- Faq Section -->
+      <section id="faq" class="faq section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>F.A.Q</h2>
+          <p>Frequently Asked Questions About Sri Lankan Tea</p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="faq-container">
+                <div class="faq-item faq-active">
+                  <h3>What makes Sri Lankan tea (Ceylon tea) unique?</h3>
+                  <div class="faq-content">
+                    <p>Sri Lankan tea is renowned for its rich flavor, fragrance, and high quality. The diversity of elevations, climates, and soil types across the country produces a range of distinct flavors, from light and citrusy to bold and full-bodied.</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+
+                <div class="faq-item">
+                  <h3>What are the main tea-growing regions in Sri Lanka?</h3>
+                  <div class="faq-content">
+                    <p>The seven primary tea-growing regions are Nuwara Eliya, Uva, Uda Pussellawa, Dimbula, Kandy, Ruhuna, and Sabaragamuwa. Each region produces tea with distinct flavor profiles influenced by altitude and climate.</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+
+                <div class="faq-item">
+                  <h3>Is all Sri Lankan tea handpicked?</h3>
+                  <div class="faq-content">
+                    <p>Yes, most Sri Lankan tea is handpicked to ensure only the tender two leaves and a bud are selected. This traditional method contributes to the superior quality of Ceylon tea.</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+            <!-- End Faq Column-->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="faq-container">
+                <div class="faq-item">
+                  <h3>What types of tea are produced in Sri Lanka?</h3>
+                  <div class="faq-content">
+                    <p>Sri Lanka produces mainly black tea, but also green tea and white tea in smaller quantities. Each type has its own characteristics and health benefits.</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+
+                <div class="faq-item">
+                  <h3>How is Sri Lankan tea processed?</h3>
+                  <div class="faq-content">
+                    <p>The tea leaves undergo several steps: withering, rolling, fermentation (for black tea), drying, and grading. These processes are carried out using traditional techniques and modern quality standards.</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+
+                <div class="faq-item">
+                  <h3>Can I visit tea plantations in Sri Lanka?</h3>
+                  <div class="faq-content">
+                    <p>Yes! Many tea estates in Sri Lanka, especially in the central highlands, offer guided tours, factory visits, and tastings. It’s a great way to experience the full journey from leaf to cup.</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+            <!-- End Faq Column-->
+          </div>
+        </div>
+      </section>
+      <!-- /Faq Section -->
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-6">
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <div class="info-item" data-aos="fade" data-aos-delay="200">
+                    <i class="bi bi-geo-alt"></i>
+                    <h3>Address</h3>
+                    <p>University of Kelaniya</p>
+                    <p>Kelaniya, Sri Lanka</p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <div class="col-md-6">
+                  <div class="info-item" data-aos="fade" data-aos-delay="300">
+                    <i class="bi bi-telephone"></i>
+                    <h3>Call Us</h3>
+                    <p>+94 76 456 7890</p>
+                    <p>+94 71 234 5678</p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <div class="col-md-6">
+                  <div class="info-item" data-aos="fade" data-aos-delay="400">
+                    <i class="bi bi-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p>kaveesh@example.com</p>
+                    <p>dscs@example.com</p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <div class="col-md-6">
+                  <div class="info-item" data-aos="fade" data-aos-delay="500">
+                    <i class="bi bi-clock"></i>
+                    <h3>Open Hours</h3>
+                    <p>Monday - Friday</p>
+                    <p>8:00AM - 04:00PM</p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="" />
+                  </div>
+
+                  <div class="col-md-6">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="" />
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="" />
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                    <button type="submit">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- End Contact Form -->
+          </div>
+        </div>
+      </section>
+      <!-- /Contact Section -->
+
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="d-flex align-items-center"><span class="sitename">TeaPot</span></a>
+            <div class="footer-contact pt-3">
+              <p>University of Kelaniya</p>
+              <p>Department of Computer Science</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>+94 71 234 5678</span></p>
+              <p><strong>Email:</strong> <span>kaveesh@uok.ac.lk</span></p>
+            </div>
+          </div>
+    
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">About Us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Research</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Contact</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">AI Projects</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">ML/DL Models</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">QA Automation</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Apps</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-lg-4 col-md-12">
+            <h4>Follow Me</h4>
+            <p>Stay connected through my socials below for project updates and more!</p>
+            <div class="social-links d-flex">
+              <a href="https://twitter.com/yourprofile" target="_blank"><i class="bi bi-twitter-x"></i></a>
+              <a href="https://facebook.com/yourprofile" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="https://instagram.com/yourprofile" target="_blank"><i class="bi bi-instagram"></i></a>
+              <a href="https://linkedin.com/in/kaveesh" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename">Kaveesh</strong>
+          <span>All Rights Reserved</span>
+        </p>
+        <div class="credits">
+          Designed by <a href="#">Kaveesh</a> | Distributed by
+          <a href="#">UOK - FOS | DSCS & DC</a>
+        </div>
+      </div>
+    </footer>
+    
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/php-email-form/validate.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>
